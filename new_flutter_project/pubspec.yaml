@@ -1,8 +1,6 @@
 name: new_flutter_project
 description: A new Flutter project.
 
-publish_to: "none"
-
 version: 1.0.0+1
 
 environment:
@@ -11,14 +9,23 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
   flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: lib/fonts/Poppins-Regular.ttf
+        - asset: lib/fonts/Poppins-Italic.ttf
+        - asset: lib/fonts/Poppins-Bold.ttf
+  assets:
+    - lib/assets/images/
+    - lib/assets/jsons/
+    - lib/assets/svgs/
+    - lib/assets/translations/
